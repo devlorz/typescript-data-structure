@@ -2,7 +2,7 @@ export class Node {
   constructor(public data: any, public next: any = null) {}
 }
 
-export class LinkedList {
+export class LinkedList implements Iterable<Node> {
   public head: Node;
   public tail: Node;
 
@@ -24,6 +24,7 @@ export class LinkedList {
     const node = new Node(value);
     if (!this.tail) {
       this.tail = node;
+      this.head = node;
       return;
     }
     this.tail.next = node;
@@ -134,6 +135,14 @@ export class LinkedList {
       fn(node, counter);
       node = node.next;
       counter++;
+    }
+  }
+
+  *[Symbol.iterator]() {
+    let node = this.head;
+    while (node) {
+      yield node;
+      node = node.next;
     }
   }
 }

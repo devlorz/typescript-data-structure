@@ -4,6 +4,8 @@
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
-    "allowJs": true
+    "lib": ["es2015", "es2015.iterable", "dom"],
+    "allowJs": true,
+    "downlevelIteration": true
   }
 }
