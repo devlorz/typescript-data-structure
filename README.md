@@ -8,3 +8,4 @@ Implemented by TypeScript
 - [Stack](https://github.com/devlorz/typescript-data-structure/blob/master/src/stack.ts)
 - [Queue](https://github.com/devlorz/typescript-data-structure/blob/master/src/queue.ts)
 - [Linked List](https://github.com/devlorz/typescript-data-structure/blob/master/src/linkedlist.ts)
+- [Weave](https://github.com/devlorz/typescript-data-structure/blob/master/src/weave.ts)
