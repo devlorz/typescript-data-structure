@@ -25,8 +25,6 @@ export class Queue {
   }
 
   peek(): number {
-    if (this.length) {
-      return this.storage[this.headIndex];
-    }
+    return this.storage[this.headIndex];
   }
 }
