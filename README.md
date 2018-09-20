@@ -13,3 +13,5 @@ Implemented by TypeScript
 - [Hash Table](https://github.com/devlorz/typescript-data-structure/blob/master/src/hash-table.ts)
 - [Find Linked List Midpoint](https://github.com/devlorz/typescript-data-structure/blob/master/src/midpoint.ts)
 - [Circular Linked List](https://github.com/devlorz/typescript-data-structure/blob/master/src/circular.ts)
+- [Linked List From Last](https://github.com/devlorz/typescript-data-structure/blob/master/src/fromlast.ts)
+- [Tree](https://github.com/devlorz/typescript-data-structure/blob/master/src/tree.ts)
